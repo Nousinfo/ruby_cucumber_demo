@@ -1,0 +1,143 @@
+[
+  {
+    "uri": "features/transfer_amount.feature",
+    "id": "an-account-holder-should-be-able-to-transfer-amount-to-another-account",
+    "keyword": "Feature",
+    "name": "An account holder should be able to transfer amount to another account",
+    "description": "",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@smoke",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "an-account-holder-should-be-able-to-transfer-amount-to-another-account;transfer-amount-from-one-account-to-another",
+        "keyword": "Scenario",
+        "name": "Transfer amount from one account to another",
+        "description": "",
+        "line": 3,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12150
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3611990224
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "An account holder is on payment form",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/transfer_amount_steps.rb:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2996489027
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:38"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 20022
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "When ",
+            "name": "Transfers amount to other account holder",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/transfer_amount_steps.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5456033824
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:38"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 31698
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "Recepeint should recieves the same amount which has been tranfered",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/transfer_amount_steps.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3318440694
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:38"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 7966
+                }
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1044021953
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11407
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

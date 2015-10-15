@@ -1,0 +1,565 @@
+[
+  {
+    "uri": "features/login.feature",
+    "id": "user-should-be-able-to-login-with-correct-credentials-and-for-wrong-credentails-user-should-get-error-message",
+    "keyword": "Feature",
+    "name": "User should be able to login with correct credentials and for wrong credentails user should get error message",
+    "description": "As a user of the Cyclos website I should be able to login and logout",
+    "line": 1,
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 4,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20525
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3322865281
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I open Cyclos website",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54038178
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:52"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 11547
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "user-should-be-able-to-login-with-correct-credentials-and-for-wrong-credentails-user-should-get-error-message;user-tries-to-login-with-valid-credentials-and-logout;;2",
+        "keyword": "Scenario Outline",
+        "name": "User tries to login With valid credentials and Logout",
+        "description": "",
+        "line": 14,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "Login with username and password",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1870203675
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:52"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 6528
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "After Login I verify that I successfully click on logout",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1069753366
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:52"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 8460
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I verify that alert message with \"Please confirm to logout\"",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1015055374
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:52"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 8313
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "It should successfully logout",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 118309853
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:52"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 7923
+                }
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1005301954
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9779
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 4,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7187
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8223839373
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I open Cyclos website",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57340169
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:52"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 12933
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "user-should-be-able-to-login-with-correct-credentials-and-for-wrong-credentails-user-should-get-error-message;user-tries-to-login-with-wrong-credentials-and-logout;;2",
+        "keyword": "Scenario Outline",
+        "name": "User tries to login With wrong credentials and Logout",
+        "description": "",
+        "line": 22,
+        "type": "scenario",
+        "comments": [
+          {
+            "value": "#      | Are you sure you wish to logout? |",
+            "line": 15
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "Login with incorrect user credentials",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1708807332
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:52"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 6418
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should get success with \"Invalid login. Please try again\"",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23616248
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:52"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 8682
+                }
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1002947103
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12789
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 4,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8458
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3713948845
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I open Cyclos website",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52037889
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:52"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 9748
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "user-should-be-able-to-login-with-correct-credentials-and-for-wrong-credentails-user-should-get-error-message;user-tries-to-login-with-wrong-credentials-and-logout;;3",
+        "keyword": "Scenario Outline",
+        "name": "User tries to login With wrong credentials and Logout",
+        "description": "",
+        "line": 23,
+        "type": "scenario",
+        "comments": [
+          {
+            "value": "#      | Are you sure you wish to logout? |",
+            "line": 15
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "Login with incorrect user credentials",
+            "line": 23,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1425934690
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:52"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 7178
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should get success with \"Wrong Credentials. Please try again!\"",
+            "line": 23,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:27"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "'Wrong Credentials. Please try again!' is not present on the page (ArgumentError)\n./lib/keyword.rb:66:in `rescue in login_message'\n./lib/keyword.rb:63:in `login_message'\n./features/step_definitions/login_steps.rb:28:in `/^I should get success with \"([^\"]*)\"$/'\nfeatures/login.feature:23:in `Then I should get success with \"Wrong Credentials. Please try again!\"'\nfeatures/login.feature:19:in `Then I should get success with \"<arg>\"'",
+              "duration": 10047043088
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:52"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1121724738
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12708
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 4,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7830
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3376553934
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I open Cyclos website",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54398943
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:52"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 9442
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "user-should-be-able-to-login-with-correct-credentials-and-for-wrong-credentails-user-should-get-error-message;user-tries-to-login-with-wrong-credentials",
+        "keyword": "Scenario",
+        "name": "User tries to login with wrong credentials",
+        "description": "",
+        "line": 26,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 25
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Then ",
+            "name": "login invalid credentials",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10310108333
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:52"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 7811
+                }
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1003523402
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12129
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
